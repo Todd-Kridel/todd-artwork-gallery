@@ -20,7 +20,7 @@ const Header = () => {
       <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", marginLeft: "10px", width: "auto", 
         padding: "20px"}}>
         <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", width: "65%", marginRight: "10px"}}>
-          <div style={{width: "100%", minHeight: "250px", maxHeight: "350px", marginLeft: "15px", marginRight: "15px", 
+          <div style={{width: "100%", minHeight: "250px", maxHeight: "400px", marginLeft: "15px", marginRight: "15px", 
             paddingTop: "5%", paddingBottom: "5%"}}>
             <Link className="text-light" to="/">
               <h1 className="outlined" 
