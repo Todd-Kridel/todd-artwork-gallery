@@ -15,7 +15,8 @@ const Footer = () => {
       <br/>
       <div className="p-centered">
         {location.pathname !== "/" && (
-          <button className="buttonHighlight" onClick={() => navigate(-1)}>
+          <button className="buttonHighlight p-centered" style={{leftPadding: "0px", rightPadding: "0px", 
+            leftMargin: "0px", rightMargin: "0px"}} onClick={() => navigate(-1)}>
             Go Back
           </button>
         )}
