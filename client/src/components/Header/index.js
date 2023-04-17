@@ -34,7 +34,8 @@ const Header = () => {
           <div style={{width: "50%", paddingTop: "10px", paddingLeft: "10px"}}>
             <div style={{width: "100%"}}>
               <p style={{width: "100%"}}>
-                <img src={"../images/Todd.jpg"} style={{border: "10px solid white", width: "100%"}} >
+                <img src={"../images/Todd.jpg"} onClick={() => window.open("../images/Todd.jpg")} 
+                  style={{border: "10px solid white", width: "100%", cursor: "pointer"}} >
                   </img><p style={{width: "100%", textAlign: "center"}} className="p-centered">
                     a head in the header</p>
               </p>
