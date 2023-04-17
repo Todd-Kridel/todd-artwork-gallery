@@ -8,8 +8,8 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
-    "seed": "node seeders/seed.js", 
-    "seedMore": "node seeders/seedMore.js"
+    "seed": "node ./seeders/seed.js", 
+    "seedMore": "node ./seeders/seedMore.js"
   },
   "keywords": [],
   "author": "",
