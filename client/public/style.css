@@ -1,0 +1,201 @@
+
+
+body {
+  background-image: url("../public/images/backgroundPicture.jpg");
+  background-size: 100% 1500px;
+  background-repeat: repeat;
+  font-family: "Comic Sans MS", Arial, Helvetica, cursive, sans-serif !important;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+font-family: "Comic Sans MS", Arial, Helvetica, cursive, sans-serif
+}
+
+.h1-centered,
+.h2-centered,
+.h3-centered,
+.h4-centered,
+.h5-centered,
+.h6-centered {
+  font-family: "Comic Sans MS", Arial, Helvetica, cursive, sans-serif !important;;
+  margin: 0 0 0.5rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.h1-centered {
+  font-size: 2.25rem;
+}
+
+.h2-centered {
+  font-size: 2rem;
+}
+
+.h3-centered {
+  font-size: 1.75rem;
+}
+
+.h4-centered {
+  font-size: 1.5rem;
+}
+
+.h5-centered {
+  font-size: 1.25rem;
+}
+
+.h6-centered {
+  font-size: 1rem;
+}
+
+.p-centered {
+  text-align: center;
+}
+
+.p-detailText {
+  text-align: left;
+}
+
+.outlined {
+  font-family: "Comic Sans MS", Arial, Helvetica, cursive, sans-serif !important;
+  font-weight: bolder;
+  color: #fff;
+  -webkit-text-stroke: 2px black;
+  -webkit-font-smoothing: antialiased;
+}
+
+.background-light-gray {
+  background-color: lightgray !important;
+}
+
+.background-light-light-gray {
+  background-color: lightgray;
+}
+
+.background-dark-dark-gray {
+  background-color: rgb(100, 100, 100);
+}
+
+.background-light-light-blue{
+  background-color: #e3fdfb;
+}
+
+.background-lightYellow {
+  background-color: lightgoldenrodyellow;
+}
+
+.text-light {
+  color: darkslategray !important;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.pCenter {
+  text-align: center;
+}
+
+.linkSpan {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited, a:link {
+  color: black;
+}
+
+.contactComment {
+  resize: none;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  vertical-align: top;
+  padding: 10px;
+  border-color: orange;
+}
+
+.contactFormInputField {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#statusMessageDisplayField, #statusCodeDisplayField {
+  background-color: rgb(245, 235, 225);
+  border: none;
+}  
+
+.contactFormStatusText {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.textLite {
+  color: #d9e9e8;
+}
+
+img :active {
+  border: 10px double purple;
+}
+
+.linkButton {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 25px;
+  line-height: 5em;
+  background-color: orange;
+  border: 10px double lightgray;
+  border-radius: 10px;
+}
+
+.buttonHighlight {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center; 
+  background-color: orange;
+  border: 10px double lightgray;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttonNonHighlight {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: darkgray;
+  border: 10px double lightgray;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-danger {
+  color: #e64c66;
+}
+
+.underlined {
+  text-decoration: underline;
+}
