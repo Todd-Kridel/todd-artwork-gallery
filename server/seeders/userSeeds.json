@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Todd Kridel",
+    "email": "todd.kridel@gmail.com",
+    "password": "P@ssw0rd"
+  },
+  {
+    "username": "Artist 2",
+    "email": "artist2@email.com",
+    "password": "P@ssw0rd02"
+  },
+  {
+    "username": "Artist 3",
+    "email": "artist3@email.com",
+    "password": "P@ssw0rd03"
+  }
+]

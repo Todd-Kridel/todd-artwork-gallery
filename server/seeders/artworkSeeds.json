@@ -1,0 +1,791 @@
+
+
+[
+{
+"title": "My Signature Piece", 
+"artworkType": "Painting", 
+"artworkStyle": "Abstract, Acrylic", 
+"artist": "Todd Kridel", 
+"picture": "DistinctlyMe.jpg", 
+"composition": "Random Scattered Symbolic Layered Colored Lines", 
+"relatedLocation": "Home Studio", 
+"artistComments": "I wanted to make an interesting signature-piece (literally) image that was distinctly-me. I achieved my goal of creating an interesting pattern from a repeated standard item--my art signature.", 
+"size": "12-inch width; 16-inch height", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  {
+  "itemName": "Paint", 
+  "acquisitionLocation": "Denver Colorado", 
+  "acquisitionDate": "4/15/2023", 
+  "price": 12.34, 
+  "notes": "TEST NOTES"
+  }
+  ], 
+"viewerComments": 
+  [
+  {
+  "viewerCommentText": "TEST COMMENT 1", 
+  "viewerCommentAuthor": "Todd Kridel", 
+  "viewerCommentCreatedDate": "4/13/2023"
+  }, 
+  {
+  "viewerCommentText": "TEST COMMENT 2", 
+  "viewerCommentAuthor": "Artist 2", 
+  "viewerCommentCreatedDate": "4/14/2023"
+  }, 
+  {
+  "viewerCommentText": "TEST COMMENT 3", 
+  "viewerCommentAuthor": "Artist 3", 
+  "viewerCommentCreatedDate": "4/15/2023"
+  }
+  ]
+}, 
+{
+"title": "Colorful Craziness", 
+"artworkType": "Painting", 
+"artworkStyle": "Abstract, Acrylic", 
+"artist": "Todd Kridel", 
+"picture": "ModernArtSquiggleSwirls.jpg", 
+"artworkCreatedDate": "1/1/2023", 
+"composition": "Squiggle Swirls", 
+"relatedLocation": "Home Studio", 
+"artistComments": "Random Fun. Cool Vibe!", 
+"size": "14-inch width; 24-inch height", 
+"price": 250, 
+"saleStatus": "For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  {
+  "viewerCommentText": "TEST COMMENT 1", 
+  "viewerCommentAuthor": "Todd Kridel", 
+  "viewerCommentCreatedDate": "4/13/2023"
+  }  
+  ]
+}, 
+{
+"title": "A Living Mess", 
+"artworkType": "Painting", 
+"artworkStyle": "Abstract, Acrylic, Thick-Layered", 
+"artist": "Todd Kridel", 
+"picture": "Todd'sLifeMess~.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "Random Layers of Color Blotches", 
+"relatedLocation": "Home Studio",  
+"artistComments": "New Growth/Direction. Subtle Soothing Neutrality", 
+"size": "2.5-foot width; 5-foot height", 
+"price": 1000, 
+"saleStatus": "For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "A New-Life Vibe", 
+"artworkType": "Painting", 
+"artworkStyle": "Abstract, Acrylic, Thick-Layered, Blotchy", 
+"artist": "Todd Kridel", 
+"picture": "Todd'sLifeRenewal.jpg", 
+"artworkCreatedDate": "1/1/2023", 
+"composition": "Vibrant Blotches And Underlying Strokes", 
+"relatedLocation": "Home Studio", 
+"artistComments": "Inspiration: Daring To Grow. Afterward Thought: Fun Energetic Vibe!", 
+"size": "2.5-foot width; 5-foot height", 
+"price": 1000, 
+"saleStatus": "For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Purple Pow", 
+"artworkType": "Painting, Acrylic", 
+"artworkStyle": "Modern/Abstract", 
+"artist": "Todd Kridel", 
+"picture": "PurplePow.jpg", 
+"artworkCreatedDate": "5/1/2020", 
+"composition": "silver undercoat with purple-pile topcoat; then intricate squiggle applications", 
+"relatedLocation": "Home Studio",  
+"artistComments": "exciting and pleasing result", 
+"size": "2-foot width; 3-foot height", 
+"price": 300, 
+"saleStatus": "Sold", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Good Nature", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "GoodNature.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{ 
+"title": "Pennies From Heaven", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "PenniesFromHeaven.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Points Of Origin And Intersection", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "PointsOfOriginAndIntersection.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "New Growth", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "NewGrowth.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Squiggly", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "Squiggly.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Stress Of Distress", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "StressOfDistress.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Pretty-Ugly", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "Pretty-Ugly.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Purple Ponder", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "PurplePonder.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Signature Series Continued", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "TMK2.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Gray Entanglement", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "GrayEntanglement.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Squiggle Jiggle", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "SquiggleJiggle.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Tangled Web", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "TangledWeb.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "SquiggleShmiggle", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "SquiggleShmiggle.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "The Power of Triangulation", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "ThePowerOfTriangulation.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Signature Series Continued", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "TMK4.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Ziggy Zany", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "ZiggyZany.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Ripple Effect", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "RippleEffect.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Blotchy Lofty Dreams", 
+"artworkType": "Painting", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "BlotchyLoftyDreams.jpg", 
+"artworkCreatedDate": "2/2/2022", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Project T_odd", 
+"artworkType": "Person", 
+"artworkStyle": "intriguing and interesting", 
+"artist": "Todd Kridel", 
+"picture": "Todd.jpg", 
+"artworkCreatedDate": "2/2/1970", 
+"composition": "effort by effort", 
+"relatedLocation": "Home Studio",  
+"artistComments": "Magical and mysterious and expressive. Slowly-but-surely and unfortunately never quite good-enough", 
+"size": "sizable", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Purple Spark", 
+"artworkType": "Painting", 
+"artworkStyle": "Modern, Abstract", 
+"artist": "Todd Kridel", 
+"picture": "PurpleSpark.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "crosshatch strokes; with a metal additional highlight", 
+"relatedLocation": "Home Studio",  
+"artistComments": "SOLD FOR $150", 
+"size": "12-inch width; 9-inch height", 
+"price": 0, 
+"saleStatus": "Sold", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Depression", 
+"artworkType": "Drawing", 
+"artworkStyle": "Pencil", 
+"artist": "Todd Kridel", 
+"picture": "Depression.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "My Mind/Emotions",  
+"artistComments": "Illustration about feeling lifeless/paralyzed from the effects of the demon of depression.", 
+"size": "12-inch width; 18-inch height", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "The Infinite Life and Support and Energy of Time", 
+"artworkType": "Drawing", 
+"artworkStyle": "Pencil", 
+"artist": "Todd Kridel", 
+"picture": "TheInfiniteLifeandSupportandEnergyofTime+.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "drawn with only dotting", 
+"relatedLocation": "",  
+"artistComments": "The title summarizes the concept/appreciation/marvel.", 
+"size": "2-foot width; 3-foot height", 
+"price": 500, 
+"saleStatus": "Maybe", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Todd's Life Decision Fate-Flow Path", 
+"artworkType": "Drawing", 
+"artworkStyle": "Pencil", 
+"artist": "Todd Kridel", 
+"picture": "Todd'sLifeDecisionFate-FlowPath.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "Life -- a sequence/game of this-or-that yes-and-no decisions and actions (or moves).", 
+"size": "2-foot width; 3-foot height", 
+"price": 500, 
+"saleStatus": "Maybe", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "The Amusement Park/Experience/Thrill of Love", 
+"artworkType": "Sketch Drawing", 
+"artworkStyle": "Pen (quick; with no practice or planning)", 
+"artist": "Todd Kridel", 
+"picture": "love_thrill_ride.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "pun theme and fun illustration", 
+"relatedLocation": "the heart/emotions",  
+"artistComments": "SOLD FOR $300", 
+"size": "2-foot width; 3-foot height", 
+"price": 0, 
+"saleStatus": "SOLD", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "The Swirl Of Ideas In My Imagination", 
+"artworkType": "Drawing", 
+"artworkStyle": "Pencil", 
+"artist": "Todd Kridel", 
+"picture": "SwirlOfMyImagination.jpg", 
+"artworkCreatedDate": "8/1/2010", 
+"composition": "mental movements", 
+"relatedLocation": "my imagination",  
+"artistComments": "so many decisions/ideas/choices; often lost in the mix", 
+"size": "3-foot width; 2-foot height", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "I Am Vegan. I Am What I Eat.", 
+"artworkType": "Digital Art", 
+"artworkStyle": "Impressionistic/Illustrative", 
+"artist": "Todd Kridel", 
+"picture": "I_Am_What_I_Eat.jpg", 
+"artworkCreatedDate": "5/1/209", 
+"composition": "layered with transparency", 
+"relatedLocation": "",  
+"artistComments": "fun experience and expression of self", 
+"size": "high-resolution printed on 16-inch width and height", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Jewelry Box for a Friend", 
+"artworkType": "Jewelry Box and Jewelry and Background Painting", 
+"artworkStyle": "Constructive and Versatile/Utilitarian", 
+"artist": "Todd Kridel", 
+"picture": "jewelry_box.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "a fitting display box and highlight/accent background painting for jewelry for a friend; some of the jewelry self-made", 
+"size": "14-inch width; 20-inch height; GIFTED TO A FRIEND; $1000 of supplies and time", 
+"price": 0, 
+"saleStatus": "SOLD", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Stone Necklace and Stone Display Panel", 
+"artworkType": "", 
+"artworkStyle": "", 
+"artist": "Todd Kridel", 
+"picture": "StoneNecklace.jpg", 
+"artworkCreatedDate": "3/1/2013", 
+"composition": "pyrite stone", 
+"relatedLocation": "",  
+"artistComments": "sold for $250", 
+"size": "12-inch width; 14-inch height", 
+"price": 0, 
+"saleStatus": "SOLD", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Funky Moonstone Bracelet", 
+"artworkType": "", 
+"artworkStyle": "", 
+"artist": "Todd Kridel", 
+"picture": "MoonstoneBracelet.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "", 
+"size": "", 
+"price": 0, 
+"saleStatus": "", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Triangle Amethyst Bracelet And Stand", 
+"artworkType": "Jewelry", 
+"artworkStyle": "Modern", 
+"artist": "Todd Kridel", 
+"picture": "TriangleBraceletAndStand.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "gift to a friend", 
+"size": "", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Appreciation Of The Journey To The Destination", 
+"artworkType": "Metal Assemblage", 
+"artworkStyle": "Found Objects", 
+"artist": "Todd Kridel", 
+"picture": "AppreciationOfTheJourneyToTheDestination.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "epoxied-together interesting pieces of metal", 
+"relatedLocation": "",  
+"artistComments": "1.5 years of daily 1-mile+ walks when picking-up found interesting pieces of metal; totalling approximately 500 miles of journey", 
+"size": "1.5-foot width; 3.5-foot height; 2.5-inch thickness; SOLD FOR $1500", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Art In Luminous Spirit", 
+"artworkType": "Sculpture of Various Found Objects", 
+"artworkStyle": "", 
+"artist": "Todd Kridel", 
+"picture": "Art_in_Luminous_Spirit_sculpture__day_and_night.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "", 
+"size": "", 
+"price": 0, 
+"saleStatus": "", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}, 
+{
+"title": "Chinese New Year; Year of the Ox Representation", 
+"artworkType": "Painting and Metal Assemblage", 
+"artworkStyle": "Representative/Symbolic", 
+"artist": "Todd Kridel", 
+"picture": "Todd's_Chinese_Ox_New_Year_painting_To_a_new_year_of_strong_and_durable_growth!.jpg", 
+"artworkCreatedDate": "3/1/2019", 
+"composition": "", 
+"relatedLocation": "",  
+"artistComments": "The year of the ox of that year represented a strong new growth a durability; SOLD FOR $100", 
+"size": "12-inch width and height ", 
+"price": 0, 
+"saleStatus": "Not For Sale", 
+"supplies": 
+  [
+  ], 
+"viewerComments": 
+  [
+  ]
+}
+]
+

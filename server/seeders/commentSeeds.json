@@ -1,0 +1,30 @@
+
+
+[
+  {
+    "commentText": "Todd Kridel's comment",
+    "commentAuthor": "Todd Kridel", 
+    "commentArtworkId": "643be68f22f67bf3c414a262"
+  },
+  {
+    "commentText": "Artist User2's comment",
+    "commentAuthor": "Artist User2", 
+    "commentArtworkId": "643be68f22f67bf3c414a266"
+  },
+  {
+    "commentText": "Artist User3's comment",
+    "commentAuthor": "Artist User3", 
+    "commentArtworkId": "643be68f22f67bf3c414a26a"
+  }, 
+  {
+    "commentText": "Public User 1's comment",
+    "commentAuthor": "Public User1", 
+    "commentArtworkId": "643be68f22f67bf3c414a266"
+  }, 
+  {
+    "commentText": "Public User2's comment",
+    "commentAuthor": "Public User2", 
+    "commentArtworkId": "643be68f22f67bf3c414a260"
+  }
+]
+
