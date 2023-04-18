@@ -41,7 +41,7 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <div style={{width: "45%", marginTop: "10px", marginLeft: "5px", marginRight: "10px"}}>
+          <div style={{width: "45%", marginTop: "10px", marginLeft: "5px", marginRight: "5px"}}>
             {Auth.loggedIn() ? (
               <>
                 <p className="buttonHighlight" style={{minWidth: "120px"}} 
@@ -53,23 +53,23 @@ const Header = () => {
                     {/* {Auth.getProfile().data.username}'s profile */}
                   </Link><br/>
                 </p>
-                <button className="buttonNonHighlight p-centered" style={{padding: "5px"}} onClick={logout}>
-                  Log-Out
+                <button className="buttonNonHighlight p-centered" style={{padding: "5px", margin: "3px"}} onClick={logout}>
+                  LogOut
                 </button>
               </>
             ) : (
               <>
                 <br/>
                 <p>
-                <Link className="buttonHighlight" style={{padding: "5px"}} to="/login">
-                  Log-In
+                <Link className="buttonHighlight" style={{padding: "5px", margin: "3px"}} to="/login">
+                  LogIn
                 </Link>
                 </p>
                 <br/>
                 <br/>
                 <p>
-                <Link className="buttonNonHighlight" style={{padding: "5px"}} to="/signup">
-                  Sign-Up
+                <Link className="buttonNonHighlight" style={{padding: "5px", margin: "3px"}} to="/signup">
+                  SignUp
                 </Link>
                 </p>
               </>
