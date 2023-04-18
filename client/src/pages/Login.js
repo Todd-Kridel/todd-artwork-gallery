@@ -9,7 +9,7 @@ import Auth from "../utils/auth";
 
 const Login = (props) => {
   const [formState, setFormState] = useState({email: "", password: ""});
-  const [login, { error, data }] = useMutation(LOGIN_USER);
+  const [login, {error, data}] = useMutation(LOGIN_USER);
 
 
   // When a new page content section is rendered at after being selected by button/link click...then  

@@ -53,17 +53,6 @@ type ViewerComment
 }
 
 
-type Comment
-{
-  _id: ID
-  commentText: String
-  commentAuthor: String
-  commentArtworkId: String
-  commentCreatedDate: String
-  commentRecordCounter: Int
-}
-
-
 type User 
 {
   _id: ID
@@ -95,7 +84,6 @@ type Mutation
 {
   addUser(username: String!, email: String!, password: String!): Auth
   login(email: String!, password: String!): Auth
-  addViewerComment_(_id: ID!, commentText: String! commentAuthor: String!, commentArtworkId: String!): Comment
   addViewerComment(artworkId: ID!, commentText: String! commentAuthor: String!): Artwork
   addViewerCommentX(_id: ID!, viewerCommentText: String! viewerCommentAuthor: String!): Artwork
   addViewerComment__(artworkId: ID!, CommentText: String! CommentAuthor: String!): Artwork
@@ -109,6 +97,8 @@ type Mutation
 module.exports = typeDefs;
 
 
+// addViewerComment_(_id: ID!, commentText: String! commentAuthor: String!, commentArtworkId: String!): Comment
+
 // viewerComment(artworkId: ID!, commentId: ID!): Artwork
 
 // addViewerComment(artworkId: ID!, commentText: String! commentAuthor: String!): Artwork
@@ -120,4 +110,15 @@ module.exports = typeDefs;
 //    _id: ID
 //    supplyRecordCollectionId: ID
 //  }
+
+
+// type Comment
+// {
+//   _id: ID
+//   commentText: String
+//   commentAuthor: String
+//   commentArtworkId: String
+//   commentCreatedDate: String
+//   commentRecordCounter: Int
+// }
 

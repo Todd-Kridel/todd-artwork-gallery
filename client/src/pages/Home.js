@@ -1,13 +1,13 @@
 
 
 import React from "react";
-import { useQuery } from "@apollo/client";
+import {useQuery} from "@apollo/client";
 
 
 import ArtworkList from "../components/ArtworkList";
 //import ViewerCommentForm from "../components/ViewerCommentForm";
 
-import { QUERY_ARTWORKS } from "../utils/queries";
+import {QUERY_ARTWORKS} from "../utils/queries";
 
 
 function BackToTopButton() {
