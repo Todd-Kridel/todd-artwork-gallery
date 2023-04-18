@@ -24,7 +24,7 @@ const Header = () => {
       {(location.pathname == "/") ? (
         <div style={{display: "flex", flexWrap: "Wrap", flexDirection: "row", justifyContent: "space-between", marginLeft: "25px", 
           marginRight: "25px", width: "auto", padding: "10px"}}>
-          <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", width: "auto", maxWidth: "60%", marginRight: "10px"}}>
+          <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", width: "auto", maxWidth: "55%", marginRight: "10px"}}>
             <div style={{width: "auto", minHeight: "250px", marginLeft: "15px", marginRight: "15px", 
               paddingTop: "5%", paddingBottom: "5%"}}>
               <Link className="text-light" to="/">
@@ -35,7 +35,7 @@ const Header = () => {
               <p className="m-0">~ attempts at creative expression...by a guy who has a paintbrush hairdo ~</p>
             </div>
           </div>
-          <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", Width: "40%", marginRight: "0px"}}>
+          <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", Width: "35%", marginRight: "0px"}}>
             <div style={{minWidth: "auto", paddingTop: "10px", paddingLeft: "10px", marginRight: "25px"}}>
               <div style={{width: "200px"}}>
                 <p style={{width: "auto"}}>
