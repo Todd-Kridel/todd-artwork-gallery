@@ -42,9 +42,8 @@ return (
       <h4 className="" style={{backgroundColor: "lightBlue", border: "10px solid lightyellow", paddingTop: "20px", 
         paddingBottom: "10px"}}>
         {showUsername ? (
-          <Link
-            className="textLight"
-            to={`//${artwork.artist}`}>
+          <Link onClick={() => window.alert("FUTURE ENHANCEMENT -- TBD -- UNDER CONSTRUCTION")} className="textLight"
+            to={""}>
             <p className="h5-centered">Artist: {artwork.artist}</p>
           </Link>
         ) : (
