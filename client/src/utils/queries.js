@@ -88,52 +88,41 @@ query getSingleArtwork($artworkId: ID!)
 `;
 
 
-export const QUERY_COMMENTS = gql`
-query getComments 
-{
-  comments 
+export const QUERY_VIEWER_COMMENT = gql`
+query getViewerComment($artworkId: ID!, $commentId: ID!)
+{  
+  artwork(artworkId: $artworkId) 
   {
-  _id
-  commentText
-  commentAuthor
-  commentArtworkId
-  commentCreatedDate
-  commentRecordCounter
+    _id
+    title
+    viewerComments(commentId: $commentId)
+    {
+      _id
+      viewerCommentText
+      viewerCommentAuthor
+      viewerCommentCreatedDate
+    }
   }
 }
 `;
 
 
-// supplyRecordCollectionId
-// viewerCommentCollectionId
-
-
-// export const QUERY_VIEWER_COMMENTS = gql`
-// query getViewerComments 
-// {
-//   viewerComments 
-//   {
-//     _id
-//     viewerCommentText
-//     viewerCommentAuthor
-//     viewerCommentArtworkId
-//     viewerCommentCreatedDate
-//   }
-// }
-// `;
-
-
-// export const QUERY_SINGLE_VIEWER_COMMENT = gql`
-// query getSingleViewerComment($viewerCommentId: ID!) 
-// {
-//   viewerComment(viewerCommentId: $viewerCommentId) 
-//   {
-//     _id
-//     viewerCommentText
-//     viewerCommentAuthor
-//     viewerCommentArtworkId
-//     viewerCommentCreatedDate
-//   }
-// }
-// `;
+/*
+export const QUERY_VIEWER_COMMENTS = gql`
+query getViewerComments($artworkId: ID!)
+{  
+  artwork(artworkId: $artworkId) 
+  {
+    _id
+    title
+    viewerComments 
+    {
+      _id
+      viewerCommentText
+      viewerCommentAuthor
+      viewerCommentCreatedDate
+    }
+}
+`;
+*/
 

@@ -29,12 +29,31 @@ Query: {
   artwork: async (parent, {artworkId}) => {
     return Artwork.findOne({_id: artworkId}).populate("viewerComments");
   }, 
+  viewerComment: async (parent, {artworkId, commentId}) => {
+    artworkProcessing = await Artwork.findOne({_id: artworkId});
+    if (artworkProcessing) 
+      {
+        if (artworkProcessing.viewerComments.length > 0) 
+        {
+          return (artworkProcessing.viewerComments).find({_id: commentId});
+        }
+        else
+        {
+          throw new Error("ERROR: The selected artwork record currently does not have the selected comment.");
+        }
+      }
+    else
+    {
+      throw new Error("ERROR: The selected artwork record cannot be located/processed.");
+    }
+  },
+
   // viewerComments: async (parent, {artworkId}) => {
   //   return Artwork.viewerComments.find({_id: artworkId}).sort({viewerCommentCreatedDate: -1});
   // },
-  // viewerComment: async (parent, {viewerCommentId}) => {
-  //   return ViewerComment.findOne({_id: viewerCommentId});
-  // },
+  //viewerComment: async (parent, {viewerCommentId}) => {
+  //  return ViewerComment.findOne({_id: viewerCommentId});
+  //},
   // viewerCommentsUser: async (parent, {}) => {
   //   const params = username ? {username} : {};
   //   return ViewerComment.find(params).sort({viewerCommentCreatedDate: -1});
@@ -60,29 +79,10 @@ Mutation: {
     const token = signToken(user);
     return {token, user};
   },
-  
-  // addViewerComment: async (parent, {_id, commentText, commentAuthor, artworkId}) => {  // , context
-  //   if (_id) {
-  //     //console.log(context.username);
-  //     return Comment.findOneAndUpdate(
-  //       {
-  //         _id: _id, 
-  //         commentText: commentText, 
-  //         commentAuthor: commentAuthor, 
-  //         commentArtworkId: artworkId},
-  //       {
-  //         new: true,
-  //         runValidators: true,
-  //       }
-  //     );
-  //   }
-  //   throw new AuthenticationError("You have to be logged-in.");
-  // },
-
   addViewerComment: async (parent, {artworkId, commentText, commentAuthor}, context) => {
-    console.log("outer call: " + artworkId + " " + commentText + " " + commentAuthor);
+    //console.log("outer call: " + artworkId + " " + commentText + " " + commentAuthor);
     if (context.user) {
-      console.log("inner call: " + artworkId + " " + commentText + " " + commentAuthor);
+      //console.log("inner call: " + artworkId + " " + commentText + " " + commentAuthor);
       return Artwork.findOneAndUpdate(
         {_id: artworkId}, 
         {
@@ -99,26 +99,7 @@ Mutation: {
     throw new AuthenticationError("You have to be logged-in.");
   },
 
-  // addViewerComment__: async (parent, {artworkId, commentText, commentAuthor}, context) => {
-  //   if (context.artworkId) {
-  //     console.log(context.commentText + " " + context.commentAuthor + " " + context.artworkId);
-  //     return Artwork.findOneAndUpdate(
-  //       {_id: artworkId}, 
-  //       {
-  //         $addToSet: {
-  //           viewerComments: {viewerCommentText: context.commentText, viewerCommentAuthor: context.commentAuthor, 
-  //             viewerCommentArtworkId: context.artworkId},
-  //         }, 
-  //       }, 
-  //       {
-  //         new: true,
-  //         runValidators: true,
-  //       }
-  //     );
-  //   }
-  //   throw new AuthenticationError("You have to be logged-in.");
-  // },
-    // removeComment: async (parent, { thoughtId, commentId }, context) => {
+  // removeComment: async (parent, { thoughtId, commentId }, context) => {
   //   if (context.user) {
   //     return Thought.findOneAndUpdate(
   //       { _id: thoughtId },

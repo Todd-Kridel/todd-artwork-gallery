@@ -144,7 +144,7 @@ const SingleArtwork = () => {
       </div>
       <div className="" style={{backgroundColor: "tan", width: "100%", paddingTop: "20px", paddingLeft: "10%", 
         paddingRight: "10%"}}>
-        <ViewerCommentList comments={artwork.viewerComments} />
+        <ViewerCommentList comments={artwork.viewerComments} artworkId={artwork._id} />
         <br/>
         <br/>
         <br/>

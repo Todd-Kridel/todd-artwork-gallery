@@ -69,7 +69,7 @@ const ViewerCommentForm = ({artworkId}) => {
             style={{marginTop: "10px"}}>
             {!error ? `Character Count: ${characterCount}/1000` : <span className="">{error.message}</span>}
           </p>
-          <div className="" style={{width: "100%"}}>
+          <div id="commentInputDisplayForm" className="" style={{width: "100%"}}>
             <form className="p-centered" style={{width: "100%"}} onSubmit={handleFormSubmit}>
               <textarea
                 id="viewerCommentTextField"
@@ -81,7 +81,7 @@ const ViewerCommentForm = ({artworkId}) => {
                 onChange={handleChange}>
               </textarea>
               <div className="">
-                <button className="buttonHighlight" type="submit">
+                <button id="addCommentButton" className="buttonHighlight" type="submit">
                   Add Comment
                 </button>
               </div>

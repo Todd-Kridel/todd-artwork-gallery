@@ -87,6 +87,7 @@ type Query
   currentUser(_id: ID!): User
   artworks: [Artwork]
   artwork(artworkId: ID!): Artwork
+  viewerComment(artworkId: ID!, commentId: ID!): Artwork
 }
 
 
@@ -107,6 +108,8 @@ type Mutation
 
 module.exports = typeDefs;
 
+
+// viewerComment(artworkId: ID!, commentId: ID!): Artwork
 
 // addViewerComment(artworkId: ID!, commentText: String! commentAuthor: String!): Artwork
 // addViewerComment(artworkId: ID!, viewerCommentText: String! viewerCommentAuthor: String!): Artwork

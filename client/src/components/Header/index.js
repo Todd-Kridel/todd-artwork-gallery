@@ -17,10 +17,10 @@ const Header = () => {
 
   return (
     <header className="background-light-gray" style={{marginBottom: "100px"}}>
-      <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", marginLeft: "10px", width: "auto", 
-        padding: "20px"}}>
-        <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", width: "65%", marginRight: "10px"}}>
-          <div style={{width: "100%", minHeight: "250px", maxHeight: "400px", marginLeft: "15px", marginRight: "15px", 
+      <div style={{display: "flex", flexWrap: "Wrap", flexDirection: "row", justifyContent: "space-between", marginLeft: "25px", 
+        marginRight: "25px", width: "auto", padding: "10px"}}>
+        <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", width: "auto", maxWidth: "60%", marginRight: "10px"}}>
+          <div style={{width: "auto", minHeight: "250px", marginLeft: "15px", marginRight: "15px", 
             paddingTop: "5%", paddingBottom: "5%"}}>
             <Link className="text-light" to="/">
               <h1 className="outlined" 
@@ -30,21 +30,21 @@ const Header = () => {
             <p className="m-0">~ attempts at creative expression...by a guy who has a paintbrush hairdo ~</p>
           </div>
         </div>
-        <div style={{display: "flex", flexWrap: "wrap", flexDirection: "row", width: "35%", marginRight: "10px"}}>
-          <div style={{width: "50%", paddingTop: "10px", paddingLeft: "10px"}}>
-            <div style={{width: "100%"}}>
-              <p style={{width: "100%"}}>
+        <div style={{display: "flex", flexWrap: "noWrap", flexDirection: "row", Width: "40%", marginRight: "0px"}}>
+          <div style={{minWidth: "auto", paddingTop: "10px", paddingLeft: "10px", marginRight: "25px"}}>
+            <div style={{width: "200px"}}>
+              <p style={{width: "auto"}}>
                 <img src={"../images/Todd.jpg"} onClick={() => window.open("../images/Todd.jpg")} 
-                  style={{border: "10px solid white", width: "100%", cursor: "pointer"}} >
+                  style={{border: "10px solid white", maxWidth: "200px", marginTop: "25px", cursor: "pointer"}} >
                   </img><p style={{width: "100%", textAlign: "center"}} className="p-centered">
                     a head in the header</p>
               </p>
             </div>
           </div>
-          <div style={{width: "45%", marginTop: "10px", marginLeft: "5px", marginRight: "5px"}}>
+          <div style={{width: "auto", marginTop: "10px", marginLeft: "10px", marginRight: "10px"}}>
             {Auth.loggedIn() ? (
               <>
-                <p className="buttonHighlight" style={{minWidth: "120px"}} 
+                <p className="buttonHighlight" style={{maxWidth: "120px"}} 
                   onClick={() => window.alert("FUTURE ENHANCEMENT -- TBD -- UNDER CONSTRUCTION")}>
                   <Link 
                     to="/">
@@ -53,23 +53,23 @@ const Header = () => {
                     {/* {Auth.getProfile().data.username}'s profile */}
                   </Link><br/>
                 </p>
-                <button className="buttonNonHighlight p-centered" style={{padding: "5px", margin: "3px"}} onClick={logout}>
-                  LogOut
+                <button className="buttonNonHighlight p-centered" style={{padding: "10px"}} onClick={logout}>
+                  Log&#8209;Out
                 </button>
               </>
             ) : (
               <>
                 <br/>
                 <p>
-                <Link className="buttonHighlight" style={{padding: "5px", margin: "3px"}} to="/login">
-                  LogIn
+                <Link className="buttonHighlight" style={{padding: "10px"}} to="/login">
+                  Log&#8209;In
                 </Link>
                 </p>
                 <br/>
                 <br/>
                 <p>
-                <Link className="buttonNonHighlight" style={{padding: "5px", margin: "3px"}} to="/signup">
-                  SignUp
+                <Link className="buttonNonHighlight" style={{padding: "10px"}} to="/signup">
+                  Sign&#8209;Up
                 </Link>
                 </p>
               </>
