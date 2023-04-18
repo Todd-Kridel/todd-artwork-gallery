@@ -89,10 +89,17 @@ const ViewerCommentForm = ({artworkId}) => {
           </div>
         </>
       ) : (
-        <p>
-          You have to be logged-in to share your comments about the art that is on this website.{" "}<br/><br/>
-            <Link to="/login"><span class="buttonHighlight">Log-In</span></Link> or 
-            <Link to="/signup"><span class="buttonNonHighlight">Sign-Up.</span></Link><br/><br/>
+        <p>You have to be logged-in to share your comments about the art that is on this website.<br/>
+          <br/>
+          <br/>
+          <Link to="/login">
+            <span class="buttonHighlight" style={{padding: "10px", margin: "5px"}}>Log&#8209;In</span>
+          </Link>&nbsp; &nbsp;
+          <Link to="/signup">
+            <span class="buttonNonHighlight" style={{padding: "10px", margin: "5px"}}>Sign&#8209;Up.</span>
+          </Link>
+          <br/>
+          <br/>
         </p>
       )}
     </div>
