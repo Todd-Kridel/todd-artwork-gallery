@@ -91,7 +91,7 @@ const Login = (props) => {
               <br/>
               <p style={{textAlign: "center", marginBottom: "-25px"}}>
                 <button className="buttonHighlight" style={{cursor: "pointer"}} type="submit">
-                  Submit the Entered Login Information
+                  Submit the Entered Log-In Information
                 </button>
               </p>
             </form>

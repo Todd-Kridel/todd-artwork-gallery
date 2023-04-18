@@ -54,7 +54,7 @@ const Header = () => {
                   </Link><br/>
                 </p>
                 <button className="buttonNonHighlight, p-centered" onClick={logout}>
-                  Logout
+                  Log-Out
                 </button>
               </>
             ) : (
@@ -62,14 +62,14 @@ const Header = () => {
                 <br/>
                 <p>
                 <Link className="buttonHighlight" to="/login">
-                  Login
+                  Log-In
                 </Link>
                 </p>
                 <br/>
                 <br/>
                 <p>
                 <Link className="buttonNonHighlight" to="/signup">
-                  Signup
+                  Sign-Up
                 </Link>
                 </p>
               </>
