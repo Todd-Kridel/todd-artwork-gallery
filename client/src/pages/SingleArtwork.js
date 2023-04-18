@@ -112,18 +112,17 @@ const SingleArtwork = () => {
         <p>Size: {artwork.size}</p>
         <p>Creation Date: {artwork.artworkCreatedDate}</p>
         <p>Price: ${artwork.price}<br/>
-          If this artwork is for sale...then you can use the "Contact Form" to send a message to me 
-          to discuss about a purchase.
-          <br/>
-            <span className="linkButton" onClick={handleContactFormClick}>
-            <Link to={"/contact/purchase_request"}>
-              Contact Form plus included artwork information
-            </Link>
-            </span>
-          <br/>
-          You can access that form by clicking the form name text 
-          button at above or by clicking the email address link that is at the bottom of this screen. 
-          The button has a convenience of pre-entering some artwork information into the message field.</p>
+          If this artwork is for sale...then you can use the "Contact Form" to send a message to me to discuss 
+          about a purchase.</p>
+        <p className="linkButton" onClick={handleContactFormClick} style={{maxWidth: "50%", height: "auto", 
+          padding: "10px", marginLeft: "25px", lineHeight: "1.25em"}}>
+          <Link to={"/contact/purchase_request"}>
+            Contact Form plus included artwork information
+          </Link>
+        </p>
+        <p>You can access that form by clicking the form name text button at above or by clicking the email 
+          address link that is at the bottom of this screen. The button has a convenience of pre-entering 
+          some artwork information into the message field.</p>
         <p>Sale Status: {artwork.saleStatus}</p>
         <p>Record Created Date: {artwork.recordCreatedDate}</p>
       </div>

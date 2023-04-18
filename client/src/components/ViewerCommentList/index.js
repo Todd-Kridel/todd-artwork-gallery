@@ -59,7 +59,8 @@ const ViewerCommentList = ({comments, artworkId}) => {  // ({comments = []}, {ar
                   </p>
                   <p className="" style={{margin: "0px"}}>{comment.viewerCommentText}</p>
                 </div>
-                <div className="" style={{backgroundColor: "lightgray", textAlign: "center", padding: "5px"}}>
+                <div className="" style={{backgroundColor: "lightgray", textAlign: "center", padding: "5px", 
+                  borderBottom: "5px solid darkblue"}}>
                   <p className="" style={{margin: "0px"}}>
                     <span className="">Comment Record ID&nbsp;:&nbsp;
                     {((Auth.loggedIn()) && (Auth.getProfile().data.username == comment.viewerCommentAuthor)) ? (
