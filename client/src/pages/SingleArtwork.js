@@ -5,7 +5,7 @@ import {useParams, Link} from "react-router-dom";
 import {useQuery} from "@apollo/client";
 import ViewerCommentList from "../components/ViewerCommentList";
 import ViewerCommentForm from "../components/ViewerCommentForm";
-import {QUERY_SINGLE_ARTWORK} from '../utils/queries';
+import {QUERY_SINGLE_ARTWORK} from "../utils/queries";
 
 
 const SingleArtwork = () => {

@@ -6,13 +6,66 @@ import {useMutation} from "@apollo/client";
 import Auth from "../../utils/auth";
 import {ADD_VIEWER_COMMENT} from "../../utils/mutations";
 
+// LocalStorage:
+// Clearing the storage value to reset for the next comment/link selection.
+//localStorage.setItem("TKAG_artwork_purchase_information", "");
+
 
 const ViewerCommentForm = ({artworkId}) => {
+  //const [commentId_, setCommentId_] = useState("");
   const [commentText, setCommentText] = useState("");
   const [characterCount, setCharacterCount] = useState(0);
   const [addViewerComment, {error}] = useMutation(ADD_VIEWER_COMMENT);
 
   //window.alert(artworkId);
+
+
+  function handleCommentListRecordUpdateButtonOnclick() {
+    // LocalStorage:
+    // LOADING: var variable_name = JSON.parse(localStorage.getItem("name_of_key"));
+    let commentId = localStorage.getItem("TKAG_artwork_comment_ID");
+    // Clearing the storage value to reset for the next comment/link selection.
+    //localStorage.setItem("TKAG_artwork_comment_ID", "");
+    //
+    window.alert("FUTURE ENHANCEMENT -- TBD -- UNDER CONSTRUCTION" + "\n" +
+    "Update information for comment record ID '" + commentId + "' that is for artwork '" + artworkId + "'.");
+    //
+    // INSERT SUCCESSFUL DATABASE QUERY PROCESS AT HERE. AT SO FAR IT HAVE BEEN NOT ABLE TO SUCCESSFULLY 
+    // IMPLEMENT THE NECESSARY SUB-DOCUMENT QUERY PROCESS FOR THE UPDATE PROCESS. STRANGE ERRORS WERE 
+    // OCCURRING. MORE INVESTIGATION IS NECESSARY.
+    //
+    //const data = await updateViewerComment({variables: {artworkId, commentId}});
+    //
+    document.getElementById("viewerCommentTextField").value = "";
+    document.getElementById("addCommentButton").style.display = "inline";
+    document.getElementById("updateCommentButton").style.display = "none";
+    document.getElementById("deleteCommentButton").style.display = "none";
+    window.location.href=`#${commentId}`;
+  }
+
+
+  function handleCommentListRecordDeleteButtonOnclick() {
+    // LocalStorage:
+    // LOADING: var variable_name = JSON.parse(localStorage.getItem("name_of_key"));
+    let commentId = localStorage.getItem("TKAG_artwork_comment_ID");
+    // Clearing the storage value to reset for the next comment/link selection.
+    //localStorage.setItem("TKAG_artwork_comment_ID", "");
+    //
+    window.alert("FUTURE ENHANCEMENT -- TBD -- UNDER CONSTRUCTION" + "\n" +
+    "Delete information for comment record ID '" + commentId + "' that is for artwork '" + artworkId + "'.");
+    //
+    // INSERT SUCCESSFUL DATABASE QUERY PROCESS AT HERE. AT SO FAR IT HAVE BEEN NOT ABLE TO SUCCESSFULLY 
+    // IMPLEMENT THE NECESSARY SUB-DOCUMENT QUERY PROCESS FOR THE DELETE PROCESS. STRANGE ERRORS WERE 
+    // OCCURRING. MORE INVESTIGATION IS NECESSARY.
+    //
+    //const data = await deleteViewerComment({variables: {artworkId, commentId}});
+    //
+    document.getElementById("viewerCommentTextField").value = "";
+    document.getElementById("addCommentButton").style.display = "inline";
+    document.getElementById("updateCommentButton").style.display = "none";
+    document.getElementById("deleteCommentButton").style.display = "none";
+    window.location.href="#viewerCommentsList";
+  }
 
 
   const handleFormSubmit = async (event) => {
@@ -83,6 +136,14 @@ const ViewerCommentForm = ({artworkId}) => {
               <div className="">
                 <button id="addCommentButton" className="buttonHighlight" type="submit">
                   Add Comment
+                </button>
+                <button id="updateCommentButton" className="buttonHighlight" type="button" style={{display: "none"}} 
+                  onClick={() => handleCommentListRecordUpdateButtonOnclick()}>
+                  Update Comment
+                </button>
+                <button id="deleteCommentButton" className="buttonHighlight" type="button" style={{display: "none"}} 
+                  onClick={() => handleCommentListRecordDeleteButtonOnclick()}>
+                  Delete Comment
                 </button>
               </div>
             </form>

@@ -29,24 +29,34 @@ Query: {
   artwork: async (parent, {artworkId}) => {
     return Artwork.findOne({_id: artworkId}).populate("viewerComments");
   }, 
-  viewerComment: async (parent, {artworkId, commentId}) => {
-    artworkProcessing = await Artwork.findOne({_id: artworkId});
-    if (artworkProcessing) 
-      {
-        if (artworkProcessing.viewerComments.length > 0) 
-        {
-          return (artworkProcessing.viewerComments).find({_id: commentId});
-        }
-        else
-        {
-          throw new Error("ERROR: The selected artwork record currently does not have the selected comment.");
-        }
-      }
-    else
-    {
-      throw new Error("ERROR: The selected artwork record cannot be located/processed.");
-    }
+  viewerComment: async (parent, {artworkId, commentId}) => {  // , commentId
+    return Artwork.findOne({_id: artworkId},
+      {viewerComments: {_id: commentId}}.populate("viewerComments"));
   },
+  //viewerComment: async (parent, {artworkId}) => {  // , commentId
+  //  return Artwork.findOne({_id: artworkId}).populate("viewerComments");
+      //{_id: artworkId}, 
+      //{viewerComments: {_id: commentId}}.populate("viewerComments"));
+  //},
+
+  // viewerComment: async (parent, {artworkId, commentId}) => {
+  //   artworkProcessing = await Artwork.findOne({_id: artworkId});
+  //   if (artworkProcessing) 
+  //     {
+  //       if (artworkProcessing.viewerComments.length > 0) 
+  //       {
+  //         return (artworkProcessing.viewerComments).find({_id: commentId});
+  //       }
+  //       else
+  //       {
+  //         throw new Error("ERROR: The selected artwork record currently does not have the selected comment.");
+  //       }
+  //     }
+  //   else
+  //   {
+  //     throw new Error("ERROR: The selected artwork record cannot be located/processed.");
+  //   }
+  // },
 
   // viewerComments: async (parent, {artworkId}) => {
   //   return Artwork.viewerComments.find({_id: artworkId}).sort({viewerCommentCreatedDate: -1});
@@ -83,7 +93,7 @@ Mutation: {
     //console.log("outer call: " + artworkId + " " + commentText + " " + commentAuthor);
     if (context.user) {
       //console.log("inner call: " + artworkId + " " + commentText + " " + commentAuthor);
-      return Artwork.findOneAndUpdate(
+      return await Artwork.findOneAndUpdate(
         {_id: artworkId}, 
         {
           $addToSet: {

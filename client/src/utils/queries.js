@@ -95,7 +95,7 @@ query getViewerComment($artworkId: ID!, $commentId: ID!)
   {
     _id
     title
-    viewerComments(commentId: $commentId)
+    viewerComments
     {
       _id
       viewerCommentText
@@ -107,22 +107,20 @@ query getViewerComment($artworkId: ID!, $commentId: ID!)
 `;
 
 
-/*
-export const QUERY_VIEWER_COMMENTS = gql`
-query getViewerComments($artworkId: ID!)
-{  
-  artwork(artworkId: $artworkId) 
-  {
-    _id
-    title
-    viewerComments 
-    {
-      _id
-      viewerCommentText
-      viewerCommentAuthor
-      viewerCommentCreatedDate
-    }
-}
-`;
-*/
+// export const QUERY_VIEWER_COMMENTS = gql`
+// query getViewerComments($artworkId: ID!)
+// {  
+//   artwork(artworkId: $artworkId) 
+//   {
+//     _id
+//     title
+//     viewerComments 
+//     {
+//       _id
+//       viewerCommentText
+//       viewerCommentAuthor
+//       viewerCommentCreatedDate
+//     }
+// }
+// `;
 
