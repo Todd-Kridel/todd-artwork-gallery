@@ -62,7 +62,7 @@ const Login = (props) => {
       <div className="" style={{color: "white", backgroundColor: "tan", padding: "50px"}}>
         <h4 className="p-centered" style={{color: "white", backgroundColor: "darkgray", padding: "10px", 
           marginBottom: "25px", border: "10px solid white"}}>
-          Login Page</h4>
+          Log-In Page</h4>
         <div className="card-body">
           {data ? (
             <p>
@@ -91,7 +91,7 @@ const Login = (props) => {
               <br/>
               <p style={{textAlign: "center", marginBottom: "-25px"}}>
                 <button className="buttonHighlight" style={{cursor: "pointer"}} type="submit">
-                  Submit the Entered Logon Information
+                  Submit the Entered Login Information
                 </button>
               </p>
             </form>
