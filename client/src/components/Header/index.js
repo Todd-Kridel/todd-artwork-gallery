@@ -41,7 +41,7 @@ const Header = () => {
               </p>
             </div>
           </div>
-          <div style={{width: "40%", marginTop: "10px", marginLeft: "5px", marginRight: "10px"}}>
+          <div style={{width: "45%", marginTop: "10px", marginLeft: "5px", marginRight: "10px"}}>
             {Auth.loggedIn() ? (
               <>
                 <p className="buttonHighlight" style={{minWidth: "120px"}} 
