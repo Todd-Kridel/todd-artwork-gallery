@@ -53,7 +53,7 @@ const Header = () => {
                     {/* {Auth.getProfile().data.username}'s profile */}
                   </Link><br/>
                 </p>
-                <button className="buttonNonHighlight p-centered" onClick={logout}>
+                <button className="buttonNonHighlight p-centered" style={{padding: "5px"}} onClick={logout}>
                   Log-Out
                 </button>
               </>
@@ -61,14 +61,14 @@ const Header = () => {
               <>
                 <br/>
                 <p>
-                <Link className="buttonHighlight" to="/login">
+                <Link className="buttonHighlight" style={{padding: "5px"}} to="/login">
                   Log-In
                 </Link>
                 </p>
                 <br/>
                 <br/>
                 <p>
-                <Link className="buttonNonHighlight" to="/signup">
+                <Link className="buttonNonHighlight" style={{padding: "5px"}} to="/signup">
                   Sign-Up
                 </Link>
                 </p>
