@@ -65,7 +65,8 @@ const Header = () => {
               ) : (
                 <>
                   <br/>
-                  <p>
+                  <br/>
+                  <p style={{marginTop: "25px"}}>
                   <Link className="buttonHighlight" style={{padding: "10px"}} to="/login">
                     Log&#8209;In
                   </Link>
