@@ -51,8 +51,8 @@ const Signup = () => {
         <br/>
         <br/>
         <br/>
-        <div className="" style={{color: "white", backgroundColor: "tan", padding: "100px"}}>
-          <h4 className="p-centered" style={{color: "white", backgroundColor: "darkgray", padding: "25px", 
+        <div className="" style={{color: "white", backgroundColor: "tan", padding: "50px"}}>
+          <h4 className="p-centered" style={{color: "white", backgroundColor: "darkgray", padding: "10px", 
             marginBottom: "25px", border: "10px solid white"}}>
             Sign-Up Page
           </h4>

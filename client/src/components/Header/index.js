@@ -53,8 +53,7 @@ const Header = () => {
                     {/* {Auth.getProfile().data.username}'s profile */}
                   </Link><br/>
                 </p>
-                <button className="buttonNonHighlight, p-centered" style={{leftPadding: "0px", rightPadding: "0px", 
-                  leftMargin: "0px", rightMargin: "0px"}} onClick={logout}>
+                <button className="buttonNonHighlight, p-centered" onClick={logout}>
                   Logout
                 </button>
               </>
