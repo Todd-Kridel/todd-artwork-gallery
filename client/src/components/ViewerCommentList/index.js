@@ -98,7 +98,9 @@ const ViewerCommentList = ({comments, artworkId}) => {  // ({comments = []}, {ar
                           to="">
                           <span>{comment._id}</span>
                         </Link><br/>
-                        Click the ID if you want to edit or delete the comment that you made.
+                        <span style={{backgroundColor: "yellow"}}>
+                          Click the ID if you want to edit or delete the comment that you made.
+                        </span>
                       </>
                       ) : (
                       <>
