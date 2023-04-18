@@ -9,7 +9,7 @@ Todd Kridel's Project 3 Application Assignment: an Art Online Gallery and Store 
 
 * Heroku site published active application: https://todd-artwork-gallery.herokuapp.com/
 
-The application assignment was quite-challenging...with all of its interrelated files and folders and interfaces. That extra difficulty sensation could be a result of end-of-class angst or the results of more-complex system features...or both. There was definitely a focus on MVP (Minimum Viable Product) concerns and organizational/efficiency concerns, and frequent-backup concerns, and stylization concerns, and modularity concerns, and re-usability concerns, and navigation path concerns, and data flow concerns...and asking-for-help concerns, and time management concerns, and prioritization concerns, and life-balance concerns, and etc.
+The application assignment was quite-challenging...with all of its interrelated files and folders and interfaces. That extra difficulty sensation could be a result of end-of-class angst or the results of more-complex system features...or both. There was definitely a focus on MVP (Minimum Viable Product) concerns and organizational/efficiency concerns, and frequent-backup concerns, and stylization concerns, and modularity concerns, and re-usability concerns, and navigation path concerns, and data flow concerns...and asking-for-help concerns, and time management concerns, and prioritization concerns, and life-balance concerns, and life-focus/direction/goal concerns, and etc. This assignment was a good success and failure for the conclusion of the bootcamp course program.
 
 ## Assignment Requirements and Characteristics
 
