@@ -5,9 +5,6 @@ Todd Kridel's Project 3 Application Assignment: an Art Online Gallery and Store 
 
 * GitHub repository and README description information: "https://github.com/Todd-Kridel/todd-artwork-gallery"
 
-* GitHub Pages published still-picture webpage: "https://github.com/Todd-Kridel/todd-artwork-gallery/tree/main/public"
-(or maybe "https://todd-kridel.github.io/todd-artwork-gallery/")
-
 * Heroku site published active application: "https://todd-artwork-gallery.herokuapp.com/"
 
 The application assignment was quite-challenging...with all of its interrelated files and folders and interfaces. That extra difficulty sensation could be a result of end-of-class angst or the results of more-complex system features...or both. There was definitely a focus on MVP (Minimum Viable Product) concerns and organizational/efficiency concerns, and frequent-backup concerns, and stylization concerns, and modularity concerns, and re-usability concerns, and navigation path concerns, and data flow concerns...and asking-for-help concerns, and time management concerns, and prioritization concerns, and life-balance concerns, and life-focus/direction/goal concerns, and etc. This assignment was a good success and failure for the conclusion of the bootcamp course program.
@@ -89,6 +86,29 @@ validation processes of the form fields.
 
 11. Attempt to delete a comment about an artwork.
 
+
+* Still Pictures of the Application Pages: 
+
+
+[./public/Project_3_picture_1.jpg](./public/Project_3_picture_1.jpg)
+
+[./public/Project_3_picture_2.jpg](./public/Project_3_picture_2.jpg)
+
+[./public/Project_3_picture_3.jpg](./public/Project_3_picture_3.jpg)
+
+[./public/Project_3_picture_4.jpg](./public/Project_3_picture_4.jpg)
+
+[./public/Project_3_picture_5.jpg](./public/Project_3_picture_5.jpg)
+
+[./public/Project_3_picture_6.jpg](./public/Project_3_picture_6.jpg)
+
+[./public/Project_3_picture_7.jpg](./public/Project_3_picture_7.jpg)
+
+[./public/Project_3_picture_8.jpg](./public/Project_3_picture_8.jpg)
+
+[./public/Project_3_picture_9.jpg](./public/Project_3_picture_9.jpg)
+
+
 ## Credits 
 
 * Continued informational and cognitive struggle and persistence were required.
@@ -124,23 +144,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-[./public/Project_3_picture_1.jpg](./public/Project_3_picture_1.jpg)
-
-[./public/Project_3_picture_2.jpg](./public/Project_3_picture_2.jpg)
-
-[./public/Project_3_picture_3.jpg](./public/Project_3_picture_3.jpg)
-
-[./public/Project_3_picture_4.jpg](./public/Project_3_picture_4.jpg)
-
-[./public/Project_3_picture_5.jpg](./public/Project_3_picture_5.jpg)
-
-[./public/Project_3_picture_6.jpg](./public/Project_3_picture_6.jpg)
-
-[./public/Project_3_picture_7.jpg](./public/Project_3_picture_7.jpg)
-
-[./public/Project_3_picture_8.jpg](./public/Project_3_picture_8.jpg)
-
-[./public/Project_3_picture_9.jpg](./public/Project_3_picture_9.jpg)
 
