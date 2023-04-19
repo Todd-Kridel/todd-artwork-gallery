@@ -87,7 +87,7 @@ validation processes of the form fields.
 11. Attempt to delete a comment about an artwork.
 
 
-* Still Pictures of the Application Pages: 
+### Still Pictures of the Application Pages: 
 
 
 [./public/Project_3_picture_1.jpg](./public/Project_3_picture_1.jpg)
